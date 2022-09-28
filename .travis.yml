@@ -20,4 +20,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push titanknight777/simple-node-ex
+  - docker push titanknight777/simple-node-ex:latest
