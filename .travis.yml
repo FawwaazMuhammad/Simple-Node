@@ -19,5 +19,5 @@ script:
   - docker tag simple-node titanknight777/simple-node-ex:latest
 
 after_success:
-  - docker login --username=titanKnight777 --password=dckr_pat_cP1GyKbeN3mkf0ybaDY6ojj59KI
+  - docker login --username=titanknight777 --password=dckr_pat_cP1GyKbeN3mkf0ybaDY6ojj59KI
   - docker push titanknight777/simple-node-ex:latest
